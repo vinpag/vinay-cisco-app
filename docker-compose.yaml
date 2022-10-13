@@ -5,6 +5,6 @@ services:
     build:  # location & name of dockerfile 
       context: . 
       dockerfile: day4app.dockerfile
-    container_name: ashuwebc1 # after image build the container i want to create
+    container_name: ashuwebc11 # after image build the container i want to create
     ports: # port forwarding 
     - 1234:80 
